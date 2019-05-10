@@ -56,12 +56,7 @@ if($result = mysqli_query($con, $query)){
 				<td><?php echo $row['cor']; ?></td>
             
 				<td><a href="alterardate.php?id='. $row["codigopd"] .'>Alterar</a></td>
-				 
 				<td><a href="excluir.php?id='. $row["codigopd"] . '">Excluir</a></td>
-			
-            
-			
-			
 			</tr>
         <?php
 		}

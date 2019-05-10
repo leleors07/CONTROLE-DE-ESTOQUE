@@ -9,10 +9,15 @@
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
-            <center> <h2>"CADASTRO DE FORNECEDOR" EM DESENVOLVIMENTO.....</h2>
+                <center>
+               <div class="container">
+              <div class="form-group mb-3">
+           
+             <h2>"CADASTRO DE FORNECEDOR" EM DESENVOLVIMENTO.....</h2>
             <table border="1">
               <form method="post" action="processa.php">
-              <div class="form-group mb-3">
+              <div class="form-group mb-3"> 
+              <img src="gfrgfr" class="img-responsive" alt="">
                   <div> 
                   <label for="nomedaempresa">NOME DA EMPRESA</label>
                     <input type="text"  class="form-control" id="nome_da_empresa" name="nomedaempresa" placeholder="Nome da empresa" required>
@@ -30,7 +35,7 @@
 
                   <div> 
                   <label for="">ENDEREÇO</label>
-                    <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereco" required>
+                    <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço" required>
                   </div>
 
                   <div>   
