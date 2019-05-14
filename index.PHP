@@ -9,15 +9,14 @@
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
-                <center>
-               <div class="container">
-              <div class="form-group mb-3">
-           
-             <h2>"CADASTRO DE FORNECEDOR" EM DESENVOLVIMENTO.....</h2>
+	<div class="jumbotron">
+	<center>	<div class="container"> 
+     
             <table border="1">
               <form method="post" action="processa.php">
-              <div class="form-group mb-3"> 
-              <img src="gfrgfr" class="img-responsive" alt="">
+            <div class="container">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group mb-3">
                   <div> 
                   <label for="nomedaempresa">NOME DA EMPRESA</label>
                     <input type="text"  class="form-control" id="nome_da_empresa" name="nomedaempresa" placeholder="Nome da empresa" required>
@@ -35,7 +34,7 @@
 
                   <div> 
                   <label for="">ENDEREÇO</label>
-                    <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço" required>
+                    <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereco" required>
                   </div>
 
                   <div>   
@@ -55,4 +54,3 @@
               </center>
 
             </form>   
-
