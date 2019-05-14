@@ -14,12 +14,20 @@
 </style>
 </head>
   <body>
+	<div class="jumbotron">
+	<center>	<div class="container"> 
+     
+            <table border="1">
+              <form method="post" action="processa.php">
+            <div class="container">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group mb-3">
 	
                <div class="container">
               <div class="form-group mb-3">
 		<form action="consultacadastrada.php" method="GET">
 				<div id="a-b-c">
-						<h1>CADASTRAR PRODUTO</h1><br>
+						<h2>CADASTRAR PRODUTO</h2><br>
 				<div class="box">	
 			<label>Codigo Produto</label>
 			<input type="NUMBER" class="form-control" name="codigopd" placeholder="Codigo produto" required=""><br>
