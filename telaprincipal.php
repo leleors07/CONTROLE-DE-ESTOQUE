@@ -3,20 +3,21 @@
     <head>
         <meta name="charset" content="utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
-         <title>Cad_Fornecedores</title>
+         <title>Principal</title>
 		 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
                 
-               <nav class="navbar navbar-fixed-top navbar-default">
+               <nav class="navbar navbar-fixed-top navbar-inverse">
                <div class="container">
                <!-- header -->
             <div class="navbar-header">
+
             <a href="telaprincipal.php" class="navbar-brand">
-            Controle de Estoque
-            </a>
+        <span class="imagem/image">MLT</span>    
+        </a>
         </div>
         <div class="navbar-header">
 
@@ -28,7 +29,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
      </button>
-     <a href="index.php" class="navbar-brand">
+</a>
      </div>
 
         <!-- navbar -->

@@ -1,0 +1,18 @@
+/*
+*
+*@Leonardo
+*/
+/*============== layout =====================*/
+/* -- Barra de navegação --*/
+.img-logo{
+    height: 40px;
+    width: 132;
+    display: block;
+    background: url('imagem/image.svg');
+    border: 1px solid red;
+    background-size: contain;
+}
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
