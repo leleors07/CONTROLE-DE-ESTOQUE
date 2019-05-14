@@ -9,48 +9,52 @@
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
-	<div class="jumbotron">
-	<center>	<div class="container"> 
-     
-            <table border="1">
-              <form method="post" action="processa.php">
-            <div class="container">
-            <div class="col-md-6 col-md-offset-3">
-              <div class="form-group mb-3">
-                  <div> 
+                
+               <div class="container">
+               <div class="page-header">
+               <h1>Cadastro de Fornecedor</h1>
+               </div>
+               <div class="row">
+               <div class="col-sm-8">
+               <h3>Cadastra-se</h3>
+               <form>
+
+               <div class="form-group">
                   <label for="nomedaempresa">NOME DA EMPRESA</label>
-                    <input type="text"  class="form-control" id="nome_da_empresa" name="nomedaempresa" placeholder="Nome da empresa" required>
+                  <input type="text" class="form-control" id="nome_da_empresa"
                   </div>
 
-                  <div> 
-                  <label for="">CNPJ</label>
-                    <input type="number" class="form-control" id="cnpj" name="cnpj" placeholder="CNPJ"required>
+                  <div class="form-group">
+                  <label for="cnpj">CNPJ</label>
+                  <input type="number" class="form-control" id="cnpj"
                   </div>
 
-                  <div> 
-                  <label for="">E-MAIL</label>
-                    <input type="text" class="form-control" id="email" name="email" placeholder="E-Mail" required>
+                  <div class="form-group">
+                  <label for="email">E-MAIL</label>
+                  <input type="text" class="form-control" id="email"
                   </div>
 
-                  <div> 
-                  <label for="">ENDEREÇO</label>
-                    <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereco" required>
+                  <div class="form-group">
+                  <label for="endereco">ENDEREÇO</label>
+                  <input type="text" class="form-control" id="endereco"
                   </div>
 
-                  <div>   
-                  <label for="">TEL COMERCIAL </label>
-                    <input type="number" class="form-control" id="comercial" name="comercial" placeholder="Comercial" required>
+                  <div class="form-group">
+                  <label for="comercial">TEL COMERCIAL</label>
+                  <input type="number" class="form-control" id="comercial"
                   </div>
 
-                  <div> 
-                <label for="">TEL CELULAR</label>
-                <input type="number" class="form-control" id="celular" name="celular" placeholder="Celular" required>
-                </div>
-    
-                </table>              
-                <button type="submit" name="CADASTRAR" style="width:10%" class="btn btn-success" onclick="confirm('Cadastrado com sucesso!!')">CADASTRAR</button>   
-                <input type="submit" value="EXCLUIR" style="width:10%" class="btn btn-danger" onclick="confirm('Deseja excluir o cadastro?')">               
-                <input type="submit" value="ALTERAR" style="width:10%" class="btn btn-success" onclick="confirm('Deseja alterar o cadastro ?')"> 
-              </center>
+                  <div class="form-group">
+                  <label for="cnpj">TEL CELULAR</label>
+                  <input type="number" class="form-control" id="cnpj"
+                  </div>
+                  <div class="checkbox">
+                      <label>
+                    <input type="checkbox"> Aceito os termos do serviço.
+                    </label>
+                  </div>
 
-            </form>   
+                  <button type="submit" class="btn btn-default">Cadastrar</button>
+              </form>
+              <div class="form-group mb-3">
+           
