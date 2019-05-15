@@ -15,7 +15,7 @@ if(!$conexao){
     <head>
         <meta name="charset" content="utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
-         <title>Cad_Fornecedores</title>
+         <title>logim da pagina</title>
 		 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
