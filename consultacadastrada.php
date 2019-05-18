@@ -12,10 +12,10 @@ include_once "conectadaDB.php";
 
    $query = "INSERT INTO bd_addprodutos ( codigopd, nome, preco_custo, preco_venda, tamanhopd, qtd_pd, tipo, cor)
    VALUES ('$codigopd', '$nome', '$preco_custo', '$preco_venda', '$tamanhopd', '$qtd_pd', '$tipo', '$cor')";
-   if ($result = mysqli_query($con, $query)) {
+   if ($result = mysqli_query($conexao, $query)) {
 	  echo "Inclusão efetuada com sucesso";
   }
-  mysqli_close($con);
+  mysqli_close($conexao);
 ?>  
  <br>
  <br>
