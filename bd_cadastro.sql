@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 16-Maio-2019 às 20:47
+-- Generation Time: 18-Maio-2019 às 04:04
 -- Versão do servidor: 10.1.38-MariaDB
 -- versão do PHP: 7.3.2
 
@@ -21,6 +21,23 @@ SET time_zone = "+00:00";
 --
 -- Database: `bd_cadastro`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `bd_addprodutos`
+--
+
+CREATE TABLE `bd_addprodutos` (
+  `codigopd` int(11) NOT NULL,
+  `nome` varchar(45) DEFAULT NULL,
+  `preco custo` double(8,2) DEFAULT NULL,
+  `preco venda` double(8,2) DEFAULT NULL,
+  `tamanhopd` char(2) DEFAULT NULL,
+  `qtd_pd` int(5) DEFAULT NULL,
+  `tipo` varchar(25) DEFAULT NULL,
+  `cor` varchar(15) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -44,7 +61,11 @@ CREATE TABLE `cadastro_c` (
 
 INSERT INTO `cadastro_c` (`id_compra`, `fornecedor`, `produto`, `valor`, `tamanho`, `cor`, `quantidade`) VALUES
 (1, 'ATACADAO', 'BLUSA', 20.00, 'P', 'VERDE', 5),
-(2, 'ATACADAO', 'BLUSA', NULL, 'P', 'VERDE', 4);
+(2, 'ATACADAO', 'BLUSA', NULL, 'P', 'VERDE', 4),
+(29, 'alelia', 'short', 22.00, 'p', 'preta', 2),
+(30, 'mauricio', 'macacao', 35.00, 'm', 'azul', 6),
+(37, 'alelia', '', 22.00, '', '', 0),
+(38, 'leonardo ribeiro', 'blusao', 60.00, 'GG', 'verme', 2);
 
 -- --------------------------------------------------------
 
@@ -78,26 +99,41 @@ INSERT INTO `cadastro_f` (`codigo`, `nome_da_empresa`, `cnpj`, `email`, `enderec
 --
 
 --
+-- Indexes for table `bd_addprodutos`
+--
+ALTER TABLE `bd_addprodutos`
+  ADD PRIMARY KEY (`codigopd`),
+  ADD KEY `fk_produto_compra` (`nome`);
+
+--
 -- Indexes for table `cadastro_c`
 --
 ALTER TABLE `cadastro_c`
-  ADD PRIMARY KEY (`id_compra`);
+  ADD PRIMARY KEY (`id_compra`),
+  ADD KEY `id_qunatidade_fk` (`quantidade`);
 
 --
 -- Indexes for table `cadastro_f`
 --
 ALTER TABLE `cadastro_f`
-  ADD PRIMARY KEY (`codigo`);
+  ADD PRIMARY KEY (`codigo`),
+  ADD KEY `id_fornecedor_fk` (`nome_da_empresa`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
+-- AUTO_INCREMENT for table `bd_addprodutos`
+--
+ALTER TABLE `bd_addprodutos`
+  MODIFY `codigopd` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `cadastro_c`
 --
 ALTER TABLE `cadastro_c`
-  MODIFY `id_compra` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_compra` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT for table `cadastro_f`
