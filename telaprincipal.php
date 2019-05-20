@@ -20,6 +20,7 @@
         </a>
         </div>
         <div class="navbar-header">
+        
 
         <!-- botao toggle -->
         <button type="button" class="navbar-toggle collapsed"
@@ -35,9 +36,12 @@
         <!-- navbar -->
     <div class="collapse navbar-collapse" id="barra-navegacao">
     <ul class="nav navbar-nav navbar-right">
-    <li><a href="">Entrar</a><li>
-    <li><a href="">Cadastro de Produto</a><li>
-    <li><a href="">Cadastro de Fornecedor</a><li>
-    <li><a href="">Compra</a><li>
+    <li><a href="http://localhost/CONTROLE-DE-ESTOQUE/alterardate.php">Cadastro de Produto</a><li>
+    <li><a href="http://localhost/CONTROLE-DE-ESTOQUE/index.php">Cadastro de Fornecedor</a><li>
+    <li><a href="http://localhost/CONTROLE-DE-ESTOQUE/index_compra.php">Cadastro de Compra</a><li>
+    <li><a href="http://localhost/CONTROLE-DE-ESTOQUE/login.php">Sair</a><li>
+
+    
+
     </ul>
     </div>

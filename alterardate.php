@@ -22,32 +22,32 @@
  
 				<div class="form-group">
 				   <label for="codigodoproduto">CODIGO DO PRODUTO</label>
-				   <input type="number" class="form-control" id="codigo_do_produto"
+				   <input type="number" class="form-control" id="codigo_do_produto">
 				   </div>
  
 				   <div class="form-group">
 				   <label for="descricao">DESCRIÇÃO</label>
-				   <input type="text" class="form-control" id="descricao"
+				   <input type="text" class="form-control" id="descricao">
 				   </div>
  
 				   <div class="form-group">
 				   <label for="precocusto">PREÇO CUSTO</label>
-				   <input type="number" class="form-control" id="preco_custo"
+				   <input type="number" class="form-control" id="preco_custo">
 				   </div>
  
 				   <div class="form-group">
 				   <label for="preco_venda">PREÇO VENDA</label>
-				   <input type="number" class="form-control" id="preco_venda"
+				   <input type="number" class="form-control" id="preco_venda">
 				   </div>
  
 				   <div class="form-group">
 				   <label for="comercial">QUANTIDADE</label>
-				   <input type="number" class="form-control" id="comercial"
+				   <input type="number" class="form-control" id="comercial">
 				   </div>
  
 				   <div class="form-group">
 				   <label for="tipomodelo">TIPO(MODELO)</label>
-				   <input type="text" class="form-control" id="tipomodelo"
+				   <input type="text" class="form-control" id="tipomodelo">
 				   </div>
 				   <div class="box2">
 		<br>

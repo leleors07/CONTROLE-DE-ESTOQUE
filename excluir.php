@@ -1,7 +1,6 @@
 <?php
 $codigopd = $_GET ["codigopd"];
 
-
 include_once "conectadaDB.php";
 
  $query = "DELETE FROM db_addprodutos WHERE codigopd = $codigopd;";

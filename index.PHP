@@ -21,32 +21,32 @@
 
                <div class="form-group">
                   <label for="nomedaempresa">NOME DA EMPRESA</label>
-                  <input type="text" class="form-control" id="nome_da_empresa"
+                  <input type="text" class="form-control" id="nome_da_empresa">
                   </div>
 
                   <div class="form-group">
                   <label for="cnpj">CNPJ</label>
-                  <input type="number" class="form-control" id="cnpj"
+                  <input type="number" class="form-control" id="cnpj">
                   </div>
 
                   <div class="form-group">
                   <label for="email">E-MAIL</label>
-                  <input type="text" class="form-control" id="email"
+                  <input type="text" class="form-control" id="email">
                   </div>
 
                   <div class="form-group">
                   <label for="endereco">ENDEREÇO</label>
-                  <input type="text" class="form-control" id="endereco"
+                  <input type="text" class="form-control" id="endereco">
                   </div>
 
                   <div class="form-group">
                   <label for="comercial">TEL COMERCIAL</label>
-                  <input type="number" class="form-control" id="comercial"
+                  <input type="number" class="form-control" id="comercial">
                   </div>
 
                   <div class="form-group">
                   <label for="cnpj">TEL CELULAR</label>
-                  <input type="number" class="form-control" id="cnpj"
+                  <input type="number" class="form-control" id="cnpj">
                   </div>
                   <div class="checkbox">
                       <label>

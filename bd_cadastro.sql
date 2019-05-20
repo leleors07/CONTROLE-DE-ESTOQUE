@@ -81,7 +81,6 @@ CREATE TABLE `cadastro_f` (
   `endereco` varchar(100) NOT NULL,
   `comercial` int(11) NOT NULL,
   `celular` int(11) NOT NULL,
-  `telefone_recado` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

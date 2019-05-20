@@ -32,7 +32,7 @@ if(!$conexao){
                <form>
 
                   <div class="form-group">
-                  <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
+                  <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
                   </div>
                   <div class="form-group">
                   <h3>Senha</h3>

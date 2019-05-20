@@ -17,7 +17,7 @@
                <div class="row">
                <div class="col-sm-8">
                <h3>Cadastra-se</h3>
-               <<form action="p_compra.php" method="POST">
+               <form action="p_compra.php" method="POST">
 
                <div class="form-group">
                   <label for="fornecedor">FORNECEDOR</label>
