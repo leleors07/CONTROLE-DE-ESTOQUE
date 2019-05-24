@@ -2,12 +2,12 @@
  include_once("conexao_compra.php");
 
 //$codigo = $_POST['codigo'];
-$fornecedor = $_POST['fornecedor'];
-$produto = $_POST['produto'];
-$valor = $_POST['valor'];
-$tamanho = $_POST['tamanho'];
-$cor = $_POST['cor'];
-$quantidade = $_POST['quantidade'];
+$fornecedor      = $_POST['fornecedor'];
+$produto         = $_POST['produto'];
+$valor           = $_POST['valor'];
+$tamanho         = $_POST['tamanho'];
+$cor             = $_POST['cor'];
+$quantidade      = $_POST['quantidade'];
 
 $sql = "INSERT INTO cadastro_c (fornecedor, produto, valor, tamanho, cor, quantidade)
 VALUES ('$fornecedor', '$produto', '$valor', '$tamanho', '$cor', '$quantidade')"; 

@@ -15,7 +15,7 @@
                <h1>Cadastro de Fornecedor</h1>
                </div>
                <div class="row">
-               <div class="col-sm-8">
+               <div class="col-sm-5">
                <h3>Cadastra-se</h3>
                <form>
 

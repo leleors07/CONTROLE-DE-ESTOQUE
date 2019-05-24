@@ -1,15 +1,42 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="charset" content="utf-8" />
-		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
-         <title>Principal</title>
-		 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    </head>
-    <body>
-                
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg" alt="Los Angeles" width="1000px" height="1000px">
+      </div>
+
+      <div class="item">
+        <img src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg" alt="Chicago" width="1000px" height="1000px">
+      </div>
+    
+      <div class="item">
+        <img src="https://mdbootstrap.com/img/Photos/Others/img (30).jpg" alt="New york" width="1000px" height="1000px">
+      </div>
+    </div>
+
+
                <nav class="navbar navbar-fixed-top navbar-inverse">
                <div class="container">
                <!-- header -->
@@ -20,7 +47,6 @@
         </a>
         </div>
         <div class="navbar-header">
-        
 
         <!-- botao toggle -->
         <button type="button" class="navbar-toggle collapsed"

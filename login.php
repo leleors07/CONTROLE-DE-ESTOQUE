@@ -21,13 +21,13 @@ if(!$conexao){
          <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
-           <form method="post" action="valida_login.php">     
+           <form method="post" action="telaprincipal.php">     
                <div class="container">
                <div class="page-header">
                <h1>Login</h1>
                </div>
                <div class="row">
-               <div class="col-sm-8">
+               <div class="col-sm-6">
                <h3>Logar</h3>
                <form>
 
