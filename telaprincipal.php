@@ -2,7 +2,7 @@
     <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Tela Principal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -12,8 +12,9 @@
 <body>
 
 <div class="container">
-  <h2>Carousel Example</h2>  
+
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -35,8 +36,6 @@
         <img src="https://mdbootstrap.com/img/Photos/Others/img (30).jpg" alt="New york" width="1000px" height="1000px">
       </div>
     </div>
-
-
                <nav class="navbar navbar-fixed-top navbar-inverse">
                <div class="container">
                <!-- header -->

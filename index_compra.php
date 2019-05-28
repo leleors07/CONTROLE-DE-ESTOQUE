@@ -15,7 +15,7 @@
                <h1>Cadastro de compra</h1>
                </div>
                <div class="row">
-               <div class="col-sm-8">
+               <div class="col-sm-3">
                <h3>Cadastra-se</h3>
                <form action="p_compra.php" method="POST">
 
@@ -56,5 +56,5 @@
 
                   <button type="submit" class="btn btn-default">Cadastrar</button>
               </form>
-              <div class="form-group mb-3">
+              <div class="form-group mb-6">
            

@@ -15,7 +15,7 @@
                <h1>Cadastro de Fornecedor</h1>
                </div>
                <div class="row">
-               <div class="col-sm-5">
+               <div class="col-sm-6">
                <h3>Cadastra-se</h3>
                <form>
 
@@ -56,5 +56,5 @@
 
                   <button type="submit" class="btn btn-default">Cadastrar</button>
               </form>
-              <div class="form-group mb-3">
+              <div class="form-group mb-5">
            
